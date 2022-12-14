@@ -1,17 +1,22 @@
 {
-  "name": "fake-rest-server",
+  "name": "fake-restserver",
+  "description": "A quick tool for testing REST requests",
   "version": "1.0.0",
-  "description": "",
+  "author": "kdyou",
   "main": "bin/serve.js",
+  "license": "ISC",
   "scripts": {
+    "serve": "node bin/serve",
+    "coverage": "nyc npm run test:unit",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fake-restserver": "./bin/serve.js"
   },
   "keywords": [
     "fake",
     "rest",
     "server",
     "test"
-  ],
-  "author": "kdyou",
-  "license": "ISC"
+  ]
 }
