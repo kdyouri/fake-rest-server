@@ -1,0 +1,17 @@
+{
+  "name": "fake-rest-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "fake",
+    "rest",
+    "server",
+    "test"
+  ],
+  "author": "kdyou",
+  "license": "ISC"
+}
