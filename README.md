@@ -6,7 +6,7 @@ PUT, PATCH and DELETE HTTP methods with JSON format on request and response.
 # Installation
 
 ```sh
-npm i -D fake-restserver
+npm i -D @kdyou/fake-restserver
 ```
 
 # Usage

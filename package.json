@@ -1,5 +1,5 @@
 {
-  "name": "fake-restserver",
+  "name": "@kdyou/fake-restserver",
   "description": "A quick tool for testing REST requests",
   "version": "1.0.0",
   "author": "kdyou",
